@@ -1,0 +1,50 @@
+p { /*Selector de la etiqueta "p" */
+	font-size:14pt;
+	color: #0000ff;
+}
+
+.titulo24{
+	font-size: 24pt;
+	background: blue;
+	color: white;
+	width: 90%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.titulo18{
+	font-size: 18pt;
+	background: blue;
+	color: white;
+	width: 70%;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: courier;
+}
+
+.boton{
+	font-size: 14pt;
+	font-weight: bold;
+	color: white;
+	background: blue;
+	width: 200px;
+	height: 70px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+
+.boton:hover{
+	color: blue;
+	background: white;	
+}
+
+.campo{
+	background: blue;
+	color: white;
+	font-size: 14pt;
+	border-radius: 7px;
+	text-align: center;
+	font-weight: bold;
+	width: 500px;
+}

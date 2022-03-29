@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Generar Correo</title>
+		<link rel="stylesheet" type="text/css" href="efectos02.css">
+		<script type="text/javascript" src="j_script.js"></script>
+	</head>
+	<body><center>
+		<p class="titulo24">Generar correo personal del empleado</p>
+		<table border="20%" width="80%">
+			<form name="f_correo">
+				<tr align="center">
+					<td><p>Nombre(s):</p></td>
+					<td><input type="text" name="nom" class="campo" onclick="campo1()"></td>
+				</tr>
+				<tr align="center">
+					<td><p>Apellido paterno:</p></td>
+					<td><input type="text" name="app" class="campo" onclick="campo2()"></td>
+				</tr>
+				<tr align="center">
+					<td><p>Apellido materno:</p></td>
+					<td><input type="text" name="apm" class="campo" onclick="campo3()"></td>
+				</tr>
+				<tr align="center">
+					<td><p>Fecha de nacimiento:</p></td>
+					<td><input type="date" name="fec" class="campo" onclick="campo4()"></td>
+				</tr>
+				<tr align="center">
+					<td><p>Tu correo es:</p></td>
+					<td><input type="text" name="correo" class="campo" disabled style="background: gray;"></td>
+				</tr>
+				<tr align="center">
+					<td><p>Tu contraseña es:</p></td>
+					<td><input type="text" name="contra" class="campo" disabled style="background: gray;"></td>
+				</tr>
+				<tr align="center">
+					<td><input type="button" name="b_ejecuta" class="boton" value="Ejecutar" onclick="ejecutar()"></td>
+					<td><input type="reset" name="b_reset" class="boton" value="Reiniciar" style="background: red;" onclick="campos1234()"></td>
+				</tr>
+			</form>
+		</table>
+	</center></body>
+</html>
